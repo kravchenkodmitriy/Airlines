@@ -1,0 +1,134 @@
+@import "font-awesome.css";
+body {
+    margin: 0;
+}
+.header {
+    background-color: #1c5bc3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container {
+    width: 1060px;
+    margin: 0 auto;
+}
+.contacts {
+    float: right;
+}
+.contacts__number {
+    color: #ffffff;
+    font-size: 21px;
+    font-family: 'robotobold'
+}
+.contacts__time {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'robotobold';
+    text-decoration: underline;
+}
+.navigation {
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+}
+.navigation_link {
+    color: #1c5bc3;
+    font_size: 12px;
+    font-family: 'robotobold';
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.name__company {
+    padding: 0px;
+
+    font-family: 'robotobold';
+    font-size: 49px;
+    
+}
+.main__company {
+    background-image: url("../images/back.jpg");
+    width: 880px;
+    height: 340px;
+    margin-left: 110px;
+    padding: 0px;
+
+}
+.about {
+    width: 700px;
+    padding: 0px;
+    font-family: 'robotolight';
+    font-size: 18px;
+    line-height: 2em;
+    margin-left: 200px;
+}
+.book {
+    width: 700px;
+    height: 140px;
+    background-color: #1c5bc3;
+}
+.book__it {
+    font-size: 18px;
+    font-family: 'robotobold';
+    padding: 21px;
+    color: white;
+}
+.partners {
+    width: 700px;
+}
+.partners_name {
+    display: inline-block;
+    font-size: 49px;
+    font-family: 'robotobold';
+    margin-top: 79px;
+    margin-bottom: 68px;
+    margin-left: 200px;
+}
+.partners__list {
+    list-style-type: none;
+    width: 700px;
+     vertical-align: top;
+    margin-left: 150px;
+    margin-bottom: 71px;
+    text-align: center;
+ }
+.partners__logo {
+
+    min-height: 160px;
+    display: inline-block;
+    margin-bottom: 64px;
+    margin-right: 90px;
+
+}
+.partners__logo:nth-child(3n+0){
+    margin-right: 0px;
+}
+.footer {
+    background-color: #1c5bc3;
+}
+.bottom__part {
+    width: 1100px;
+    height: 76px;
+    background-color: #1c5bc3 ;
+
+}
+.social__text {
+    text-decoration: none;
+    width: 235px;
+    height: 53px;
+    color: white;
+    margin: 10px;
+}
+.footer__column{
+    display: inline-block;
+    vertical-align: top;
+}
+.social__logo {
+    float: right;
+}
+.footer__column__logo {
+    margin-left: 190px;
+    margin-right: 260px;
+}
+fa {
+    color: #1c5bc3;
+}
