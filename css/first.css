@@ -7,7 +7,6 @@ body {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-
 .container {
 	width: 1060px;
 	margin: 0 auto;
@@ -35,7 +34,7 @@ body {
 }
 .navigation_link {
 	color: #1c5bc3;
-	font_size: 12px;
+	font-size: 12px;
 	font-family: 'robotobold';
 	text-transform: uppercase;
 	text-decoration: none;
@@ -76,3 +75,4 @@ body {
 .fa {
 	color: #1c5bc3;
 }
+
