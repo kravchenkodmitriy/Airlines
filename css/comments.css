@@ -1,7 +1,9 @@
 @import "company.css";
 @import "font-awesome.css";
+
 body {
 	margin: 0;
+	padding: 0;
 }
 .header {
 	background-color: #1c5bc3;
@@ -18,13 +20,17 @@ body {
 .contacts__number {
 	 color: #ffffff;
 	 font-size: 21px;
-	 font-family: 'robotobold'
+	 font-family: 'robotobold';
+	margin: 0;
+	padding: 0;
 }
 .contacts__time {
 	color: #ffffff;
 	font-size: 14px;
 	font-family: 'robotobold'; 
 	text-decoration: underline;
+	margin: 0;
+	padding: 0;
 }
 .navigation {
 	margin-top: 20px;
@@ -38,10 +44,13 @@ body {
 	font-family: 'robotobold';
 	text-transform: uppercase;
 	text-decoration: none;
-	margin: 5px;
+
 }
-.navigation_link:hover, navigation_link:focus {
+.navigation_item:hover .navigation_link {
 	color: #959494;
+}
+.navigation_item:hover .fa {
+	background-color: #959494;
 }
 .navigation:hover, navigation:focus {
 	color: #959494;
@@ -50,19 +59,16 @@ body {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	width: 900px;
+
 }
-.crew_link {
+.crew_date {
 	color: #959494;
-	display: block;
 	font-family: 'robotobold';
-	text-decoration: none;
-	text-align: left;
 	padding: 0px;
 	margin: 0px;
 	
 }
-.crew_item {
+.crew_description {
 	color: #959494;
 	font-size: 14px;
 	font-family: 'robotobold';
@@ -78,15 +84,15 @@ body {
 
 
 }
-.nick {
+.crew_picture {
 	width: 100%;
 	height: 100%;
 	
 }
-.crew_pilot {
+.crew_item {
 	border-bottom: 2px solid #CCC;
 }
-.crew_pilot:nth-child(5n+0){
+.crew_pilot:last-child{
 	border-bottom:0px;
 }
 .name {
@@ -100,7 +106,7 @@ body {
 .crew_image {
 	display: inline-block;
 	width: 150px;
-	heigth: 150px;
+	height: 150px;
 	border-radius: 50%;
 	overflow: hidden;
 }
@@ -112,14 +118,15 @@ body {
 .form {
     background: #f5f5f5;
     border-radius: 5px;
-
-    width: 700px;
+	width: 700px;
     margin-top: 10px;
+	padding-left: 35px;
+	padding-top: 5px;
+	padding-right: 42px;
+	margin-bottom: 50px;
 }
 .form__title {
     font-size: 49px;
-    padding-top: 52px;
-    margin-left: 70px;
     font-family: 'robotobold';
 }
 .column {
@@ -128,16 +135,16 @@ body {
 
 }
 .row {
-    display: block;
-	width: 560px;
+
     font-family: 'robotolight';
     margin-top: 10px;
-    margin-left: 70px;
 }
 .textarea {
-    width: 560px;
+    width: 100%;
 	height: 90px;
 	padding-left: 10px;
+	box-sizing: border-box;
+	resize: none;
 }
 .row__buttom {
     font-family: 'robotolight';
@@ -159,19 +166,18 @@ body {
 	float: right;
     font-family: 'robotobold';
     font-size: 13px;
-	color: #959494;
+	color: white;
 	background-color: #1c5bc3;
-	text-decoration: none;
 	text-transform: uppercase;
-	padding: 14px 46px 17px 21px;
 	border-radius: 1px;
-	vertical-align: top;
+	border: none;
+	padding: 14px 46px;
 }
 .column__margin {
 	margin-right: 4%;
 }
 .text__column {
-    width: 270px;
+    width: 100%;
 	height: 45px;
 	padding-left: 10px;
 }
@@ -193,7 +199,7 @@ body {
 	background-color: #1c5bc3 ;
 
 }
-.social__text {
+.footer_paragraph {
 	text-decoration: none;
 	width: 235px;
 	height: 53px;
@@ -203,7 +209,8 @@ body {
 .footer__column{
 	display: inline-block;
 	vertical-align: top;
-
+	padding-left: 60px;
+	padding-right: 65px;
 }
 .social__logo {
 	float: right;
@@ -211,10 +218,12 @@ body {
 }
 .footer__column__logo {
 	margin-left: 190px;
-	margin-right: 260px;
+	margin-right: 230px;
+	padding: 10px;
 }
 .fa {
 	color: #1c5bc3;
+	margin-right: 10px;
 }
 .fa-vk {
 	color: white;
@@ -247,6 +256,42 @@ body {
 	padding: 0;
 
 
+}
+.footer_logo {
+	padding: 10px;
+	margin-top: 10px;
+}
+.span_text {
+	font-weight: bolder;
+}
+.logo_image {
+	margin: 17px;
+}
+.about_company {
+	margin: 0;
+	padding: 0;
+}
+.breadrumbs{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.breadrumbs__item{
+	display:inline-block;
+	margin-right:15px;
+	text-decoration: none;
+
+}
+.breadrumbs__item:after{
+	content:"/";
+	display:inline-block;
+	color: #959494;
+}
+.breadrumbs__item:last-child:after{
+	display:none;
+}
+.social__networks {
+	margin-top: 20px;
 }
 
 

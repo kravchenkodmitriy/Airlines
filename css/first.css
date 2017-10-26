@@ -7,24 +7,26 @@ body {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-.container {
-	width: 1060px;
-	margin: 0 auto;
-}
+
 .contacts {
 	float: right;
 }
 .contacts__number {
 	 color: #ffffff;
 	 font-size: 21px;
-	 font-family: 'robotobold'
-	 
+	 font-family: 'robotobold';
+	 margin: 0;
+	padding: 0;
+
 }
 .contacts__time {
 	color: #ffffff;
 	font-size: 14px;
-	font-family: 'robotobold'; 
+	font-family: 'robotobold';
 	text-decoration: underline;
+	margin: 0;
+	padding: 0;
+
 }
 .navigation {
 	margin-top: 20px;
@@ -52,15 +54,15 @@ body {
 	font-family: 'robotobold';
 	text-decoration: none;
 	text-align: center;
-	
+
 }
 .crew_item {
 	color: #1c5bc3;
 	font-size: 14px;
 	font-family: 'robotobold';
 	text-align: center;
-	
-	
+
+
 }
 .nick {
 	width: 300px;

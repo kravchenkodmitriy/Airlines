@@ -1,43 +1,5 @@
 @import "font-awesome.css";
-body {
-    margin: 0;
-}
-.header {
-    background-color: #1c5bc3;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.container {
-    width: 1060px;
-    margin: 0 auto;
-}
-.contacts {
-    float: right;
-}
-.contacts__number {
-    color: #ffffff;
-    font-size: 21px;
-    font-family: 'robotobold'
-}
-.contacts__time {
-    color: #ffffff;
-    font-size: 14px;
-    font-family: 'robotobold';
-    text-decoration: underline;
-}
-.navigation {
-    margin-top: 20px;
-    padding: 0;
-    list-style-type: none;
-    float: left;
-}
-.navigation_link {
-    color: #1c5bc3;
-    font_size: 12px;
-    font-family: 'robotobold';
-    text-transform: uppercase;
-    text-decoration: none;
-}
+
 .name__company {
     padding: 0px;
 
@@ -111,23 +73,16 @@ body {
     background-color: #1c5bc3 ;
 
 }
-.social__text {
+.social__paragraph {
     text-decoration: none;
-    width: 235px;
+    width: 285px;
     height: 53px;
     color: white;
     margin: 10px;
-}
-.footer__column{
-    display: inline-block;
-    vertical-align: top;
+
 }
 .social__logo {
     float: right;
-}
-.footer__column__logo {
-    margin-left: 190px;
-    margin-right: 260px;
 }
 fa {
     color: #1c5bc3;
