@@ -234,12 +234,17 @@ body {
 }
 .social__logo {
 	color: white;
-	font-size: 16px;
+	font-size: 14px;
 	margin: 0;
 	text-align: right;
+	font-family: 'robotobold';
 }
-.social_list {
+.social-list {
 	text-align: right;
+	padding: 0;
+}
+.social__items:last-child {
+	margin: 0;
 }
 .footer__column__logo {
 	margin-left: 190px;
