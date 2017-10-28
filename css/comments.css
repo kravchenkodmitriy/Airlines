@@ -229,7 +229,7 @@ body {
 }
 .footer__column{
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: middle;
 	width: calc(100%/3);
 }
 .social__logo {
@@ -238,6 +238,7 @@ body {
 	margin: 0;
 	text-align: right;
 	font-family: 'robotobold';
+	margin-bottom: 10px;
 }
 .social-list {
 	text-align: right;
@@ -356,7 +357,40 @@ body {
 }
 .social__icons {
 	margin: 0;
+	font-size: 19px;
 }
 .command {
+	text-decoration: none;
+	list-style-type: none;
+	width: 910px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
 
+}
+.command_pilot {
+	display: inline-block;
+	margin-bottom: 50px;
+}
+.command_link {
+	font-size: 18px;
+	font-family: 'robotobold';
+	color: #080808;
+	text-decoration: none;
+
+
+}
+.command_item_index {
+	font-family: 'robotobold';
+	font-size: 14px;
+	color: #1c5bc3;
+	text-align: center;
+}
+.command_item {
+	font-size: 14px;
+	font-family: 'robotolight';
+	color: #080808;
+	width: 270px;
+	height: 140px;
+	text-align: center;
 }
