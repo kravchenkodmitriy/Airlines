@@ -74,16 +74,10 @@
 
 }
 .social__paragraph {
-    text-decoration: none;
-    width: 285px;
-    height: 53px;
     color: white;
-    margin: 10px;
+    font-size: 16px;
+}
 
-}
-.social__logo {
-    float: right;
-}
 fa {
     color: #1c5bc3;
 }
