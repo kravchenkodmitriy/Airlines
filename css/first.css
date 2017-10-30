@@ -2,11 +2,6 @@
 body {
 	margin: 0;
 }
-.header {
-	background-color: #1c5bc3;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
 
 .contacts {
 	float: right;
@@ -77,4 +72,25 @@ body {
 .fa {
 	color: #1c5bc3;
 }
+.reviews {
+	font-size: 49px;
+	font-family: 'robotobold';
+	color: #000;
+	margin: 0;
+	padding: 7px;
 
+}
+.command__image {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0 auto;
+
+}
+.command__picture {
+	max-width: 100%;
+	max-height: 100%;
+	text-align: center;
+}

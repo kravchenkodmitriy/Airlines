@@ -362,29 +362,35 @@ body {
 .command {
 	text-decoration: none;
 	list-style-type: none;
-	width: 910px;
-	text-align: center;
+	width: 900px;
 	margin: 0;
 	padding: 0;
 
 }
 .command_pilot {
 	display: inline-block;
-	margin-bottom: 50px;
+	background-color: white;
+	box-sizing: border-box;
+	vertical-align: top;
+	max-height: 410px;
+	max-width: 300px;
+	margin-bottom: 40px;
+	margin-top: 40px;
 }
 .command_link {
 	font-size: 18px;
 	font-family: 'robotobold';
 	color: #080808;
 	text-decoration: none;
-
-
+	text-align: center;
+	margin: 0;
 }
 .command_item_index {
 	font-family: 'robotobold';
 	font-size: 14px;
 	color: #1c5bc3;
 	text-align: center;
+	margin: 0;
 }
 .command_item {
 	font-size: 14px;
