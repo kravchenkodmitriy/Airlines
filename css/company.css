@@ -2,26 +2,24 @@
 
 .name__company {
     padding: 0px;
-
     font-family: 'robotobold';
     font-size: 49px;
-    
+    margin: 0;
 }
 .main__company {
     background-image: url("../images/back.jpg");
-    width: 880px;
     height: 340px;
-    margin-left: 110px;
-    padding: 0px;
-
+    padding-top: 100px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    background-size: cover;
+    position: relative;
 }
 .about {
-    width: 700px;
     padding: 0px;
     font-family: 'robotolight';
     font-size: 18px;
     line-height: 2em;
-    margin-left: 200px;
 }
 .book {
     width: 700px;
@@ -35,31 +33,25 @@
     color: white;
 }
 .partners {
-    width: 700px;
+
 }
 .partners_name {
-    display: inline-block;
     font-size: 49px;
     font-family: 'robotobold';
-    margin-top: 79px;
+
     margin-bottom: 68px;
-    margin-left: 200px;
+
 }
 .partners__list {
     list-style-type: none;
-    width: 700px;
-     vertical-align: top;
-    margin-left: 150px;
-    margin-bottom: 71px;
-    text-align: center;
+    margin: 0;
+    padding: 0;
  }
 .partners__logo {
-
-    min-height: 160px;
     display: inline-block;
     margin-bottom: 64px;
     margin-right: 90px;
-
+    vertical-align: middle;
 }
 .partners__logo:nth-child(3n+0){
     margin-right: 0px;

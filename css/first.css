@@ -76,8 +76,9 @@ body {
 	font-size: 49px;
 	font-family: 'robotobold';
 	color: #000;
-	margin: 0;
-	padding: 7px;
+	margin-top: 8px;
+	margin-bottom: 36px;
+
 
 }
 .command__image {
@@ -90,7 +91,7 @@ body {
 
 }
 .command__picture {
-	max-width: 100%;
+
 	max-height: 100%;
 
 }

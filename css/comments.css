@@ -69,7 +69,7 @@ body {
 .crew_date {
 	color: #959494;
 	font-family: 'robotolight';
-	padding: 0px;
+	padding-top: 33px;
 	margin: 0px;
 	font-size: 14px;
 }
@@ -89,14 +89,15 @@ body {
 	font-family: 'robotobold';
 	font-size: 18px;
 	margin: 0;
-	padding: 0;
+	padding-top: 3px;
 }
 .crew_text {
 	color: #959494;
 	font-family: 'robotolight';
 	font-size: 18px;
 	margin: 0;
-	padding: 0;
+	padding-top: 11px;
+	line-height: 1.3em;
 }
 .crew_picture {
 	width: 100%;
@@ -126,9 +127,9 @@ body {
 }
 .main {
 	display: inline-block;
-	width: 794px;
-	margin-left: 34px;
-	padding: 42px;
+	width: 882px;
+	margin-left: 71px;
+	margin-top: 40px;
 }
 .form {
     background: #f5f5f5;
@@ -162,6 +163,9 @@ body {
 	padding-left: 10px;
 	box-sizing: border-box;
 	resize: none;
+	background-color: white;
+	border-radius: 2px;
+	border: none;
 }
 .row__buttom {
     font-family: 'robotolight';
@@ -291,6 +295,9 @@ body {
 .about_company {
 	margin: 0;
 	padding: 0;
+	display: inline-block;
+	width: 900px;
+	margin-left: 53px;
 }
 .breadrumbs{
 	margin:0;
@@ -360,9 +367,7 @@ body {
 	font-size: 19px;
 }
 .command {
-	text-decoration: none;
 	list-style-type: none;
-	width: 900px;
 	margin: 0;
 	padding: 0;
 
@@ -373,6 +378,11 @@ body {
 	box-sizing: border-box;
 	vertical-align: top;
 	text-align: center;
+	margin-right: 28px;
+	width: 272px;
+}
+.command_pilot:nth-child(3n+0){
+	margin-right: 0;
 }
 .command_link {
 	font-size: 18px;
