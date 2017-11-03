@@ -1,0 +1,46 @@
+@import "font-awesome.css";
+
+.background__image {
+   width: 1200px;
+    height: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+    position: relative;
+}
+.click {
+    padding: 0;
+    margin: 0;
+}
+.click__bottum {
+    font-family: 'robotobold';
+    font-size: 12px;
+    float: none;
+    color: #1c5bc4;
+    background-color: transparent;
+    text-transform: uppercase;
+    border-radius: 1px;
+    padding: 17px 20px 17px 23px;
+    border: 1px solid #1c5bc4;
+    text-decoration: none;
+}
+.click__bottum:active {
+    font-family: 'robotobold';
+    font-size: 12px;
+    float: none;
+    color: white;
+    background-color: #1c5bc3;
+    text-transform: uppercase;
+    border-radius: 1px;
+    padding: 17px 20px 17px 23px;
+    border: 1px solid #1c5bc4;
+    text-decoration: none;
+}
+
+.fa:active{
+    color: white;
+    font-size: 19px;
+}
+.logo__company {
+    padding-bottom: 45px;
+    padding-left: 24px;
+}
