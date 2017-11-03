@@ -69,7 +69,7 @@ body {
 .crew_date {
 	color: #959494;
 	font-family: 'robotolight';
-	padding-top: 33px;
+
 	margin: 0px;
 	font-size: 14px;
 }
@@ -80,7 +80,7 @@ body {
 	text-align: left;
 	display: inline-block;
 	width: 600px;
-	margin-left: 26px;
+	margin-left: 15px;
 	padding-bottom: 20px;
 	
 }
@@ -97,7 +97,7 @@ body {
 	font-size: 18px;
 	margin: 0;
 	padding-top: 11px;
-	line-height: 1.3em;
+	line-height: 22px;
 }
 .crew_picture {
 	width: 100%;
@@ -106,6 +106,8 @@ body {
 }
 .crew_item {
 	border-bottom: 2px solid #CCC;
+	margin-bottom: 23px;
+	padding-bottom: 26px;
 }
 .crew_item:last-child{
 	border-bottom: 0px;
@@ -120,10 +122,11 @@ body {
 }
 .crew_image {
 	display: inline-block;
-	width: 150px;
-	height: 150px;
+	width: 164px;
+	height: 160px;
 	border-radius: 50%;
 	overflow: hidden;
+	vertical-align: top;
 }
 .main {
 	display: inline-block;
@@ -380,6 +383,7 @@ body {
 	text-align: center;
 	margin-right: 28px;
 	width: 272px;
+	margin-bottom: 96px;
 }
 .command_pilot:nth-child(3n+0){
 	margin-right: 0;
@@ -411,6 +415,9 @@ body {
 	padding: 0;
 	margin: 0;
 }
-.text__about {
+.clients__about {
 	margin-left: 34px;
+}
+.command__text {
+
 }
