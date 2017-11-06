@@ -1,17 +1,19 @@
 @import "font-awesome.css";
 
-.background__image {
-   width: 1200px;
-    height: 100%;
-    box-sizing: border-box;
-    background-size: cover;
-    position: relative;
-}
-.click {
-    padding: 0;
+.greeting {
+    background-image: url('../images/background.png');
+    height: 100vh;
     margin: 0;
+    padding: 0;
 }
-.click__bottum {
+.intro {
+    position: relative;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+.intro__link {
     font-family: 'robotobold';
     font-size: 12px;
     float: none;
@@ -23,7 +25,7 @@
     border: 1px solid #1c5bc4;
     text-decoration: none;
 }
-.click__bottum:active {
+.intro__link:active {
     font-family: 'robotobold';
     font-size: 12px;
     float: none;
@@ -35,12 +37,12 @@
     border: 1px solid #1c5bc4;
     text-decoration: none;
 }
-
 .fa:active{
     color: white;
     font-size: 19px;
 }
-.logo__company {
-    padding-bottom: 45px;
-    padding-left: 24px;
+.intro__image {
+    margin-bottom: 47px;
+    margin-left: 18px;
+
 }
