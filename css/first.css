@@ -2,7 +2,6 @@
 body {
 	margin: 0;
 }
-
 .contacts {
 	float: right;
 }
@@ -88,6 +87,7 @@ body {
 	overflow: hidden;
 	padding: 0;
 	margin: 0 auto;
+	margin-bottom: 19px;
 
 }
 .command__picture {

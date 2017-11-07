@@ -1,10 +1,13 @@
 @import "font-awesome.css";
-
+body{
+    margin: 0;
+}
 .greeting {
     background-image: url('../images/background.png');
     height: 100vh;
     margin: 0;
     padding: 0;
+    background-size: cover;
 }
 .intro {
     position: relative;
@@ -16,9 +19,7 @@
 .intro__link {
     font-family: 'robotobold';
     font-size: 12px;
-    float: none;
     color: #1c5bc4;
-    background-color: transparent;
     text-transform: uppercase;
     border-radius: 1px;
     padding: 17px 20px 17px 23px;
@@ -42,7 +43,11 @@
     font-size: 19px;
 }
 .intro__image {
-    margin-bottom: 47px;
-    margin-left: 18px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 115px;
 
+}
+.intro__link .fa {
+    display: inline;
 }
